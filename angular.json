@@ -5,7 +5,17 @@
   "projects": {
     "curso-angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -91,8 +101,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "a64282f8-17c5-423d-a289-0158c7c1a7b1"
   }
 }
