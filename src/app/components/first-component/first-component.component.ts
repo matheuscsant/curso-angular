@@ -5,4 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: './first-component.component.html',
   styleUrl: './first-component.component.css',
 })
-export class FirstComponentComponent {}
+export class FirstComponentComponent {
+  name: string = "Matheus - Primeiro - Componente com CSS"
+}
