@@ -7,6 +7,7 @@ import { DirectivesComponent } from './components/directives/directives.componen
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { SecondComponentComponent } from './components/second-component/second-component.component';
+import { ConditionalComponent } from './components/conditional/conditional.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { SecondComponentComponent } from './components/second-component/second-c
     SecondComponentComponent,
     ParentDataComponent,
     DirectivesComponent,
+    ConditionalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
