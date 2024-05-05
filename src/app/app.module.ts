@@ -8,6 +8,7 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { SecondComponentComponent } from './components/second-component/second-component.component';
 import { ConditionalComponent } from './components/conditional/conditional.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { ConditionalComponent } from './components/conditional/conditional.compo
     ParentDataComponent,
     DirectivesComponent,
     ConditionalComponent,
+    EventosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
