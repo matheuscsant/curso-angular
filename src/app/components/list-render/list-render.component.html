@@ -1,0 +1,12 @@
+<div class="class">
+  <h1>Renderizando listas</h1>
+  <h2>Animais:</h2>
+  <ul>
+    <li *ngFor="let animal of animals">
+      Nome: {{ animal.name }} - Tipo: {{ animal.type }}
+    </li>
+    <p *ngFor="let animal of animals">
+      Nome: {{ animal.name }} - Tipo: {{ animal.type }}
+    </p>
+  </ul>
+</div>
